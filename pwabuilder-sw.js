@@ -1,4 +1,4 @@
-<script>
+
   // This is the service worker with the Cache-first network
 
 const CACHE = "pwabuilder-precache";
@@ -82,5 +82,4 @@ function updateCache(request, response) {
     return cache.put(request, response);
   });
 }
-</script>
 
